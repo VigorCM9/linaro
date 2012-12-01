@@ -10,28 +10,24 @@ Instructions:
 
 * edit envsetup.sh to point to your new Linaro toolchain
 
-'''bash
-export ANDROID_EABI_TOOLCHAIN=
-local ARCH=$(get_build_var TARGET_ARCH)
-case $ARCH in
-    x86) toolchaindir=x86/i686-android-linux-4.4.3/bin
-        ;;
-    arm) toolchaindir=arm/android-toolchain-eabi/bin
-        ;;
-    *)
-'''
+    export ANDROID_EABI_TOOLCHAIN=
+    local ARCH=$(get_build_var TARGET_ARCH)
+    case $ARCH in
+         x86) toolchaindir=x86/i686-android-linux-4.4.3/bin
+            ;;
+        arm) toolchaindir=arm/android-toolchain-eabi/bin
+            ;;
+        *)
 
 and
 
-'''bash
-export ARM_EABI_TOOLCHAIN=
-case $ARCH in
-    x86) toolchaindir=x86/i686-eabi-4.4.3/bin
-        ;;
-    arm) toolchaindir=arm/android-toolchain-eabi/bin
-        ;;
-    *)
-'''
+    export ARM_EABI_TOOLCHAIN=
+    case $ARCH in
+        x86) toolchaindir=x86/i686-eabi-4.4.3/bin
+            ;;
+        arm) toolchaindir=arm/android-toolchain-eabi/bin
+            ;;
+        *)
 
 * Build AOSP as normal
 
