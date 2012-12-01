@@ -21,13 +21,13 @@ Instructions:
 
 and
 
-    export ARM_EABI_TOOLCHAIN=
-    case $ARCH in
-        x86) toolchaindir=x86/i686-eabi-4.4.3/bin
-            ;;
-        arm) toolchaindir=arm/android-toolchain-eabi/bin
-            ;;
-        *)
+        export ARM_EABI_TOOLCHAIN=
+        case $ARCH in
+            x86) toolchaindir=x86/i686-eabi-4.4.3/bin
+                ;;
+            arm) toolchaindir=arm/android-toolchain-eabi/bin
+                ;;
+            *)
 
 * Build AOSP as normal
 
