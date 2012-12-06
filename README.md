@@ -1,4 +1,4 @@
-android-toolchain-eabi-linaro-4.7
+linaro-4.7
 =================================
 Instructions:
 -------------
