@@ -12,8 +12,6 @@ Instructions:
 
         export ARM_EABI_TOOLCHAIN=
         case $ARCH in
-            x86) toolchaindir=linaro/bin
-                ;;
             arm) toolchaindir=linaro/bin
                 ;;
             *)
