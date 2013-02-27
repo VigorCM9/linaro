@@ -5,7 +5,7 @@ Instructions:
 * Download the Android source code you wish to use
 
 * cd [aosp-root]/prebuilts/gcc/linux-x86
-* git clone git://github.com/IAmTheOneTheyCallNeo/linaro.git linaro
+* git clone -b 13.01 git://github.com/VigorCM9/linaro.git linaro
 * cd [aosp-root]/build
 
 * edit envsetup.sh to point to your new Linaro toolchain
