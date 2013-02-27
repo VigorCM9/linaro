@@ -16,7 +16,8 @@ Instructions:
                 ;;
             *)
 
-* Build AOSP as normal
+Do the same also for Android-eabi's arm (kernel): arm) toolchaindir=linaro/bin 
+* Build AOSP as normal 
 
 Disclaimer:
 -----------
